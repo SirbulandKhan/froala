@@ -1,0 +1,18 @@
+::ng-deep {
+	.fr-wrapper {
+		min-height: 300px;
+	}
+}
+
+.toggle-btn {
+	height: 30px;
+	background-color: cornflowerblue;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+}
